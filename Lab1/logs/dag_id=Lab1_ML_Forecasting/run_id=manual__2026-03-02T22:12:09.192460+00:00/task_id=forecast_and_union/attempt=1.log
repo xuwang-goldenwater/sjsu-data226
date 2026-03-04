@@ -1,0 +1,31 @@
+[2026-03-02T22:12:11.495+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-02T22:12:11.510+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lab1_ML_Forecasting.forecast_and_union manual__2026-03-02T22:12:09.192460+00:00 [queued]>
+[2026-03-02T22:12:11.515+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lab1_ML_Forecasting.forecast_and_union manual__2026-03-02T22:12:09.192460+00:00 [queued]>
+[2026-03-02T22:12:11.516+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-03-02T22:12:11.524+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): forecast_and_union> on 2026-03-02 22:12:09.192460+00:00
+[2026-03-02T22:12:11.539+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=9417) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-02T22:12:11.540+0000] {standard_task_runner.py:72} INFO - Started process 9425 to run task
+[2026-03-02T22:12:11.539+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Lab1_ML_Forecasting', 'forecast_and_union', 'manual__2026-03-02T22:12:09.192460+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/ML.py', '--cfg-path', '/tmp/tmp11999zne']
+[2026-03-02T22:12:11.547+0000] {standard_task_runner.py:105} INFO - Job 19: Subtask forecast_and_union
+[2026-03-02T22:12:11.632+0000] {task_command.py:467} INFO - Running <TaskInstance: Lab1_ML_Forecasting.forecast_and_union manual__2026-03-02T22:12:09.192460+00:00 [running]> on host 26a15a446f7c
+[2026-03-02T22:12:11.690+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Lab1_ML_Forecasting' AIRFLOW_CTX_TASK_ID='forecast_and_union' AIRFLOW_CTX_EXECUTION_DATE='2026-03-02T22:12:09.192460+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-02T22:12:09.192460+00:00'
+[2026-03-02T22:12:11.691+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-03-02T22:12:11.706+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-03-02T22:12:11.707+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.68-linuxkit-aarch64-with-glibc2.36
+[2026-03-02T22:12:11.708+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-03-02T22:12:11.708+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-03-02T22:12:12.537+0000] {ML.py:26} INFO - Initiating Snowflake Cortex ML Training Phase...
+[2026-03-02T22:12:12.855+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2026-03-02T22:13:23.626+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2026-03-02T22:13:23.629+0000] {ML.py:48} INFO - Generating predictions and consolidating final report...
+[2026-03-02T22:13:43.801+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2026-03-02T22:13:43.959+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2026-03-02T22:13:43.960+0000] {ML.py:79} INFO - Pipeline Execution Successful: USER_DB_FOX.raw.weather_final_report is now synchronized.
+[2026-03-02T22:13:43.960+0000] {connection.py:788} INFO - closed
+[2026-03-02T22:13:44.019+0000] {connection.py:794} INFO - No async queries seem to be running, deleting session
+[2026-03-02T22:13:44.126+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-03-02T22:13:44.186+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-03-02T22:13:44.188+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Lab1_ML_Forecasting, task_id=forecast_and_union, run_id=manual__2026-03-02T22:12:09.192460+00:00, execution_date=20260302T221209, start_date=20260302T221211, end_date=20260302T221344
+[2026-03-02T22:13:44.251+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-02T22:13:44.276+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-02T22:13:44.277+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

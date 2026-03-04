@@ -15,6 +15,7 @@ def forecast_and_union():
     # 1. Configuration: Retrieve table and model identifiers from Airflow Variables or Defaults
     source_table = Variable.get("weather_target_table", default_var="USER_DB_FOX.raw.weather_historical")
     model_name = "USER_DB_FOX.raw.weather_prediction_model"
+    forecast_entity_table = "USER_DB_FOX.raw.weather_forecast"
     final_report_table = "USER_DB_FOX.raw.weather_final_report"
     
     # Initialize Snowflake connection via Airflow Hook
@@ -43,23 +44,39 @@ def forecast_and_union():
             );
         """)
 
-     # 3. Inference & 4. Data Integration (Unified Operation)
-        # We use a CTE approach to ensure clean data flow and explicit column mapping
-        logging.info("Generating predictions and consolidating final report...")
+     # 3. Inference & 4. Data Integration (Updated to include Entity Table 2)
+        logging.info("Generating predictions, creating forecast entity table, and consolidating report...")
         
-        cur.execute(f"""
+        # Define the name for your Table 2 (Inference Layer)
+        
+
+        optimized_logic = f"""
+        BEGIN
+            -- Step 1: Execute the Multi-Series Forecast (covers all cities in the model)
+            CALL {model_name}!FORECAST(
+                FORECASTING_PERIODS => 7,
+                CONFIG_OBJECT => {{'prediction_interval': 0.95}}
+            );
+            
+            -- Step 2: Capture the Query ID
+            LET x := SQLID;
+            
+            -- Step 3: Create the Physical "Table 2" (Pure Inference Layer)
+            -- This table stores only the 7-day forecast for both cities
+            CREATE OR REPLACE TABLE {forecast_entity_table} AS
+            SELECT 
+                CAST(SERIES AS VARCHAR) AS LOCATION_NAME, 
+                CAST(TS AS DATE) AS DATE, 
+                FORECAST AS TEMP_MAX,
+                LOWER_BOUND, -- Including confidence intervals for better data richness
+                UPPER_BOUND,
+                'FORECAST' AS DATA_TYPE
+            FROM TABLE(RESULT_SCAN(:x));
+
+            -- Step 4: Create the Final Report (Table 3: Consolidated Layer)
+            -- Merging the 60-day Ground Truth with the newly created Table 2
             CREATE OR REPLACE TABLE {final_report_table} AS
-            WITH forecast_data AS (
-                -- Call the model and immediately rename columns for consistency
-                SELECT 
-                    SERIES AS LOCATION_NAME, 
-                    TS AS DATE, 
-                    FORECAST AS TEMP_MAX,
-                    'FORECAST' AS DATA_TYPE
-                FROM TABLE({model_name}!FORECAST(FORECASTING_PERIODS => 7))
-            ),
-            historical_data AS (
-                -- Filter 60 days of ground truth data
+            WITH historical_data AS (
                 SELECT 
                     LOCATION_NAME, 
                     DATE, 
@@ -68,11 +85,12 @@ def forecast_and_union():
                 FROM {source_table}
                 WHERE DATE >= DATEADD('day', -60, CURRENT_DATE())
             )
-            -- Combine both datasets into the final analytical view
-            SELECT * FROM historical_data
+            SELECT LOCATION_NAME, DATE, TEMP_MAX, DATA_TYPE FROM historical_data
             UNION ALL
-            SELECT * FROM forecast_data;
-        """)
+            SELECT LOCATION_NAME, DATE, TEMP_MAX, DATA_TYPE FROM {forecast_entity_table};
+        END;
+        """
+        cur.execute(optimized_logic)
 
         # Commit all changes upon successful execution
         cur.execute("COMMIT;")
