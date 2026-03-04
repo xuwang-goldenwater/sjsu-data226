@@ -17,5 +17,6 @@ An advanced data engineering pipeline that extends basic ETL capabilities with M
 ## Setup Instructions
 1. Navigate to this directory: `cd Lab1`
 2. Start environment: `docker-compose up -d`
-3. Set Airflow Variables: `weather_locations` (JSON format) and `weather_target_table`.
-4. Trigger `Lab1_ETL` followed by `Lab1_ML_Forecasting`.
+3. Set Airflow Variables: `weather_locations` (JSON format) , `weather_forecast_url` and `weather_target_table`
+4. Connections: `snowflake_conn`
+5. Trigger `Lab1_ETL` followed by `Lab1_ML_Forecasting`.
