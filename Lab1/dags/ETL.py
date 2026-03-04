@@ -23,7 +23,7 @@ def extract():
             "longitude": coords[1],
             "past_days": 60, # Lab 1 requires historical data, so we set past_days to 60 to get 2 months of data
             "forecast_days": 0,
-            "daily": ["temperature_2m_max", "temperature_2m_min", "precipitation_sum", "weather_code"],
+            "daily": ["temperature_2m_max", "temperature_2m_min","temperature_2m_mean", "precipitation_sum", "weather_code"],
             "timezone": "America/Los_Angeles"
         }
         logging.info(f"Fetching data for {city_name}...")
@@ -50,6 +50,7 @@ def transform(all_data_json):
             "date": data["daily"]["time"],
             "temp_max": data["daily"]["temperature_2m_max"],
             "temp_min": data["daily"]["temperature_2m_min"],
+            "temp_mean": data["daily"]["temperature_2m_mean"],
             "precipitation": data["daily"]["precipitation_sum"],
             "weather_code": data["daily"]["weather_code"]
         })
@@ -85,6 +86,7 @@ def load_V2(records):
                   date DATE,
                   temp_max FLOAT,
                   temp_min FLOAT,
+                  temp_mean FLOAT,
                   precipitation FLOAT,
                   weather_code INT,
                   PRIMARY KEY (location_name, date)
@@ -94,12 +96,12 @@ def load_V2(records):
     
         # 将 DataFrame convert to list of tuples for executemany
         rows = [tuple(x) for x in df[['location_name', 'latitude', 'longitude', 'date', 
-                                      'temp_max', 'temp_min', 'precipitation', 'weather_code']].values]
+                                      'temp_max', 'temp_min', 'temp_mean', 'precipitation', 'weather_code']].values]
         
         sql = f"""
                 INSERT INTO {target_table}
-                (location_name, latitude, longitude, date, temp_max, temp_min, precipitation, weather_code)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                (location_name, latitude, longitude, date, temp_max, temp_min, temp_mean, precipitation, weather_code)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """
         cur.executemany(sql, rows)
         cur.execute("COMMIT;")
