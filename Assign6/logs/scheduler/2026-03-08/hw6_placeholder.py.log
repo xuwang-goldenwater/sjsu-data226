@@ -1,0 +1,363 @@
+[2026-03-08T00:00:13.448+0000] {processor.py:186} INFO - Started process (PID=1444) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:00:13.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:00:13.458+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:00:13.458+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:00:13.488+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:00:13.506+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:00:13.505+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:00:13.527+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:00:13.527+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:00:13.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.102 seconds
+[2026-03-08T00:00:43.897+0000] {processor.py:186} INFO - Started process (PID=1455) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:00:43.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:00:43.904+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:00:43.903+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:00:43.939+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:00:43.951+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:00:43.951+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:00:43.968+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:00:43.968+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:00:43.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.094 seconds
+[2026-03-08T00:01:14.380+0000] {processor.py:186} INFO - Started process (PID=1466) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:01:14.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:01:14.388+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:01:14.387+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:01:14.423+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:01:14.442+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:01:14.441+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:01:14.465+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:01:14.465+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:01:14.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.113 seconds
+[2026-03-08T00:01:44.806+0000] {processor.py:186} INFO - Started process (PID=1478) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:01:44.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:01:44.820+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:01:44.820+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:01:44.855+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:01:44.867+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:01:44.867+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:01:44.883+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:01:44.883+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:01:44.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.100 seconds
+[2026-03-08T00:02:15.243+0000] {processor.py:186} INFO - Started process (PID=1489) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:02:15.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:02:15.250+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:02:15.249+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:02:15.278+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:02:15.291+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:02:15.291+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:02:15.312+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:02:15.312+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:02:15.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.087 seconds
+[2026-03-08T00:02:45.669+0000] {processor.py:186} INFO - Started process (PID=1512) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:02:45.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:02:45.676+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:02:45.675+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:02:45.716+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:02:45.732+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:02:45.732+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:02:45.753+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:02:45.753+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:02:45.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.115 seconds
+[2026-03-08T00:03:16.294+0000] {processor.py:186} INFO - Started process (PID=1534) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:03:16.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:03:16.298+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:03:16.297+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:03:16.324+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:03:16.342+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:03:16.341+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:03:16.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.083 seconds
+[2026-03-08T00:03:46.774+0000] {processor.py:186} INFO - Started process (PID=1545) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:03:46.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:03:46.788+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:03:46.787+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:03:46.826+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:03:46.846+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:03:46.845+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:03:46.861+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:03:46.861+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:03:46.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.110 seconds
+[2026-03-08T00:04:17.264+0000] {processor.py:186} INFO - Started process (PID=1567) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:04:17.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:04:17.273+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:04:17.272+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:04:17.326+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:04:17.345+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:04:17.344+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:04:17.369+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:04:17.369+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:04:17.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.130 seconds
+[2026-03-08T00:04:47.676+0000] {processor.py:186} INFO - Started process (PID=1589) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:04:47.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:04:47.689+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:04:47.688+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:04:47.743+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:04:47.768+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:04:47.768+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:04:47.785+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:04:47.785+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:04:47.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.135 seconds
+[2026-03-08T00:05:18.232+0000] {processor.py:186} INFO - Started process (PID=1600) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:05:18.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:05:18.243+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:05:18.243+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:05:18.284+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:05:18.306+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:05:18.306+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:05:18.325+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:05:18.325+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:05:18.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.120 seconds
+[2026-03-08T00:05:48.650+0000] {processor.py:186} INFO - Started process (PID=1611) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:05:48.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:05:48.659+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:05:48.658+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:05:48.701+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:05:48.717+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:05:48.717+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:05:48.736+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:05:48.736+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:05:48.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.110 seconds
+[2026-03-08T00:06:19.127+0000] {processor.py:186} INFO - Started process (PID=1622) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:06:19.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:06:19.135+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:06:19.134+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:06:19.168+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:06:19.182+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:06:19.182+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:06:19.201+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:06:19.201+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:06:19.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.108 seconds
+[2026-03-08T00:06:49.559+0000] {processor.py:186} INFO - Started process (PID=1633) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:06:49.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:06:49.566+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:06:49.565+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:06:49.608+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:06:49.627+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:06:49.627+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:06:49.651+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:06:49.651+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:06:49.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.116 seconds
+[2026-03-08T00:07:19.944+0000] {processor.py:186} INFO - Started process (PID=1644) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:07:19.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:07:19.954+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:07:19.954+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:07:20.012+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:07:20.036+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:07:20.035+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:07:20.054+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:07:20.054+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:07:20.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.132 seconds
+[2026-03-08T00:07:50.453+0000] {processor.py:186} INFO - Started process (PID=1655) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:07:50.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:07:50.459+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:07:50.458+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:07:50.486+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:07:50.497+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:07:50.497+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:07:50.510+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:07:50.510+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:07:50.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.074 seconds
+[2026-03-08T00:08:20.912+0000] {processor.py:186} INFO - Started process (PID=1666) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:08:20.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:08:20.925+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:08:20.924+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:08:20.974+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:08:20.997+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:08:20.996+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:08:21.019+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:08:21.018+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:08:21.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.134 seconds
+[2026-03-08T00:08:51.337+0000] {processor.py:186} INFO - Started process (PID=1677) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:08:51.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:08:51.345+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:08:51.345+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:08:51.393+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:08:51.414+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:08:51.414+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:08:51.432+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:08:51.432+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:08:51.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.122 seconds
+[2026-03-08T00:09:21.861+0000] {processor.py:186} INFO - Started process (PID=1688) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:09:21.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:09:21.868+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:09:21.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:09:21.917+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:09:21.938+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:09:21.937+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:09:21.957+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:09:21.956+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:09:21.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.121 seconds
+[2026-03-08T00:09:52.352+0000] {processor.py:186} INFO - Started process (PID=1699) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:09:52.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:09:52.365+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:09:52.365+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:09:52.407+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:09:52.428+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:09:52.427+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:09:52.445+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:09:52.445+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:09:52.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.118 seconds
+[2026-03-08T00:10:22.763+0000] {processor.py:186} INFO - Started process (PID=1709) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:10:22.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:10:22.772+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:10:22.771+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:10:22.821+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:10:22.845+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:10:22.844+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:10:22.864+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:10:22.864+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:10:22.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.124 seconds
+[2026-03-08T00:10:53.277+0000] {processor.py:186} INFO - Started process (PID=1720) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:10:53.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:10:53.288+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:10:53.287+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:10:53.340+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:10:53.358+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:10:53.358+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:10:53.379+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:10:53.379+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:10:53.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.130 seconds
+[2026-03-08T00:11:23.743+0000] {processor.py:186} INFO - Started process (PID=1731) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:11:23.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:11:23.751+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:11:23.750+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:11:23.794+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:11:23.816+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:11:23.816+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:11:23.835+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:11:23.834+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:11:23.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.123 seconds
+[2026-03-08T00:11:54.115+0000] {processor.py:186} INFO - Started process (PID=1742) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:11:54.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:11:54.126+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:11:54.125+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:11:54.174+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:11:54.194+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:11:54.194+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:11:54.213+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:11:54.213+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:11:54.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.129 seconds
+[2026-03-08T00:12:24.550+0000] {processor.py:186} INFO - Started process (PID=1753) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:12:24.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:12:24.558+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:12:24.557+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:12:24.595+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:12:24.616+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:12:24.616+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:12:24.638+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:12:24.638+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:12:24.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.125 seconds
+[2026-03-08T00:12:54.973+0000] {processor.py:186} INFO - Started process (PID=1764) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:12:54.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:12:54.980+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:12:54.979+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:12:55.027+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:12:55.048+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:12:55.047+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:12:55.074+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:12:55.074+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:12:55.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.127 seconds
+[2026-03-08T00:13:25.478+0000] {processor.py:186} INFO - Started process (PID=1775) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:13:25.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:13:25.487+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:13:25.486+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:13:25.551+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:13:25.598+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:13:25.597+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:13:25.629+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:13:25.629+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:13:25.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.184 seconds
+[2026-03-08T00:13:55.909+0000] {processor.py:186} INFO - Started process (PID=1786) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:13:55.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:13:55.918+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:13:55.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:13:55.972+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:13:55.993+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:13:55.993+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:13:56.017+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:13:56.017+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:13:56.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.133 seconds
+[2026-03-08T00:14:26.438+0000] {processor.py:186} INFO - Started process (PID=1797) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:14:26.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:14:26.446+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:14:26.446+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:14:26.486+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:14:26.506+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:14:26.505+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:14:26.528+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:14:26.528+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:14:26.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.112 seconds
+[2026-03-08T00:14:56.904+0000] {processor.py:186} INFO - Started process (PID=1808) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:14:56.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:14:56.920+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:14:56.920+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:14:56.974+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:14:56.996+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:14:56.996+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:14:57.024+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:14:57.024+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:14:57.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.148 seconds
+[2026-03-08T00:15:27.349+0000] {processor.py:186} INFO - Started process (PID=1819) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:15:27.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:15:27.362+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:15:27.361+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:15:27.407+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:15:27.429+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:15:27.428+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:15:27.455+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:15:27.454+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:15:27.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.128 seconds
+[2026-03-08T00:15:57.818+0000] {processor.py:186} INFO - Started process (PID=1830) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:15:57.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:15:57.824+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:15:57.824+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:15:57.862+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:15:57.884+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:15:57.884+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:15:57.902+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:15:57.902+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:15:57.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.103 seconds
+[2026-03-08T00:16:28.251+0000] {processor.py:186} INFO - Started process (PID=1841) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:16:28.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:16:28.256+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:16:28.255+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:16:28.293+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:16:28.311+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:16:28.311+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:16:28.333+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:16:28.333+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:16:28.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.105 seconds
+[2026-03-08T00:16:58.665+0000] {processor.py:186} INFO - Started process (PID=1851) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:16:58.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:16:58.674+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:16:58.673+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:16:58.721+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:16:58.741+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:16:58.741+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:16:58.767+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:16:58.767+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:16:58.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.125 seconds
+[2026-03-08T00:17:29.103+0000] {processor.py:186} INFO - Started process (PID=1862) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:17:29.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:17:29.112+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:17:29.111+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:17:29.149+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:17:29.166+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:17:29.165+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:17:29.183+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:17:29.183+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:17:29.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.106 seconds
+[2026-03-08T00:17:59.584+0000] {processor.py:186} INFO - Started process (PID=1873) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:17:59.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:17:59.592+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:17:59.592+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:17:59.634+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:17:59.656+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:17:59.656+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:17:59.681+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:17:59.681+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:17:59.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.124 seconds
+[2026-03-08T00:18:30.038+0000] {processor.py:186} INFO - Started process (PID=1884) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:18:30.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:18:30.047+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:18:30.046+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:18:30.097+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:18:30.116+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:18:30.115+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:18:30.140+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:18:30.140+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:18:30.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.125 seconds
+[2026-03-08T00:19:00.447+0000] {processor.py:186} INFO - Started process (PID=1895) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:19:00.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:19:00.458+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:19:00.457+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:19:00.525+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:19:00.546+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:19:00.546+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:19:00.568+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:19:00.568+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:19:00.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.146 seconds
+[2026-03-08T00:19:30.941+0000] {processor.py:186} INFO - Started process (PID=1906) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:19:30.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:19:30.954+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:19:30.953+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:19:31.012+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:19:31.035+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:19:31.034+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:19:31.060+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:19:31.060+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:19:31.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.150 seconds
+[2026-03-08T00:20:01.326+0000] {processor.py:186} INFO - Started process (PID=1917) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:20:01.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:20:01.334+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:20:01.334+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:20:01.377+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:20:01.402+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:20:01.402+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:20:01.426+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:20:01.426+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:20:01.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.135 seconds
+[2026-03-08T00:20:31.843+0000] {processor.py:186} INFO - Started process (PID=1928) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:20:31.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:20:31.856+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:20:31.855+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:20:31.907+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:20:31.933+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:20:31.933+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:20:31.961+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:20:31.961+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:20:31.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.143 seconds
+[2026-03-08T00:21:02.291+0000] {processor.py:186} INFO - Started process (PID=1939) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:21:02.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:21:02.300+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:21:02.300+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:21:02.352+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:21:02.379+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:21:02.378+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:21:02.403+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:21:02.403+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:21:02.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.142 seconds
+[2026-03-08T00:21:32.780+0000] {processor.py:186} INFO - Started process (PID=1950) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:21:32.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:21:32.788+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:21:32.787+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:21:32.827+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:21:32.848+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:21:32.847+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:21:32.868+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:21:32.868+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:21:32.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.122 seconds
+[2026-03-08T00:22:03.239+0000] {processor.py:186} INFO - Started process (PID=1961) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:22:03.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:22:03.246+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:22:03.245+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:22:03.291+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:22:03.312+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:22:03.311+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:22:03.334+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:22:03.334+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:22:03.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.119 seconds
+[2026-03-08T00:22:33.748+0000] {processor.py:186} INFO - Started process (PID=1972) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:22:33.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:22:33.752+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:22:33.752+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:22:33.798+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:22:33.815+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:22:33.815+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:22:33.838+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:22:33.838+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:22:33.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.117 seconds
+[2026-03-08T00:23:04.138+0000] {processor.py:186} INFO - Started process (PID=1983) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:23:04.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:23:04.146+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:23:04.145+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:23:04.198+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:23:04.231+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:23:04.231+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:23:04.270+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:23:04.270+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:23:04.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.162 seconds
+[2026-03-08T00:23:34.494+0000] {processor.py:186} INFO - Started process (PID=1994) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:23:34.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:23:34.502+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:23:34.502+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:23:34.544+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:23:34.566+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:23:34.565+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:23:34.585+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:23:34.585+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:23:34.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.112 seconds
+[2026-03-08T00:24:04.852+0000] {processor.py:186} INFO - Started process (PID=2004) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:24:04.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:24:04.859+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:24:04.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:24:04.916+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:24:04.934+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:24:04.934+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:24:04.953+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:24:04.953+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:24:04.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.131 seconds
+[2026-03-08T00:24:35.332+0000] {processor.py:186} INFO - Started process (PID=2015) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:24:35.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:24:35.341+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:24:35.340+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:24:35.388+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:24:35.412+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:24:35.411+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:24:35.431+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:24:35.431+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:24:35.442+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.120 seconds
+[2026-03-08T00:25:05.740+0000] {processor.py:186} INFO - Started process (PID=2026) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:25:05.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:25:05.749+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:25:05.748+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:25:05.802+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:25:05.819+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:25:05.819+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:25:05.841+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:25:05.841+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:25:05.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.124 seconds
+[2026-03-08T00:25:36.152+0000] {processor.py:186} INFO - Started process (PID=2037) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:25:36.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:25:36.160+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:25:36.159+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:25:36.205+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:25:36.227+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:25:36.227+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:25:36.254+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:25:36.254+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:25:36.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.129 seconds
+[2026-03-08T00:26:06.628+0000] {processor.py:186} INFO - Started process (PID=2048) to work on /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:26:06.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_placeholder.py for tasks to queue
+[2026-03-08T00:26:06.642+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:26:06.641+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:26:06.692+0000] {processor.py:925} INFO - DAG(s) 'weather_ETL_incremental' retrieved from /opt/airflow/dags/hw6_placeholder.py
+[2026-03-08T00:26:06.715+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:26:06.714+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-08T00:26:06.735+0000] {logging_mixin.py:190} INFO - [2026-03-08T00:26:06.735+0000] {dag.py:4156} INFO - Setting next_dagrun for weather_ETL_incremental to 2026-03-07 03:30:00+00:00, run_after=2026-03-08 03:30:00+00:00
+[2026-03-08T00:26:06.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_placeholder.py took 0.139 seconds
