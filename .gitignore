@@ -1,1 +1,8 @@
+*.pdf
+*.docx
+*.log
+airflow/
+logs/
+target/
+dbt_packages/
 .DS_Store
