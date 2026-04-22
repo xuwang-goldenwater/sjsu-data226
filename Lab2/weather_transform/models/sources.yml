@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: snowflake_raw
+    database: USER_DB_FOX
+    schema: RAW
+    tables:
+      - name: weather_historical

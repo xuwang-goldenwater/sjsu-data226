@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: avg_weather_metrics
+    description: "Seven-day moving average and cumulative rainfall analysis table."
+    columns:
+      - name: location_name
+        description: "City or location name."
+        tests:
+          - not_null
+      - name: date
+        description: "Record date."
+        tests:
+          - not_null
+      - name: moving_avg_7d
+        description: "Seven-day moving average temperature."
+        tests:
+          - not_null
+      - name: cumulative_rainfall
+        description: "Cumulative rainfall for the location."
+        tests:
+          - not_null
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - location_name
+            - date
